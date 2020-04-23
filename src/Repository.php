@@ -3,6 +3,7 @@
 namespace HttpClient\Cache;
 
 use Closure;
+use HttpClient\Contracts\Application;
 
 class Repository
 {
@@ -10,7 +11,7 @@ class Repository
 
     protected $app;
 
-    public function __construct($app)
+    public function __construct(Application $app)
     {
         $this->app = $app;
     }

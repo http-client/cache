@@ -1,7 +1,5 @@
 <?php
 
-
-
 namespace HttpClient\Cache;
 
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
